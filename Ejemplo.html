@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Nombre: <input type="text" id="myInput" onfocus="FuncionOnfocus()" onblur="FuncionOnblur()">
+
+<script>
+
+function FuncionOnfocus() {
+    document.getElementById("myInput").style.background = "yellow";
+}
+
+function FuncionOnblur() {
+    document.getElementById("myInput").style.background = "red";
+}
+</script>
+
+</body>
+</html>
